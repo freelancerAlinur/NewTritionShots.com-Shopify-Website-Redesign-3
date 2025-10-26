@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTrition Shots - The NEW Science of Nutrition</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#57b5e7',
+                        secondary: '#8dd3c7'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-gray-800 py-4 px-6">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <div class="text-white text-2xl font-bold font-['Pacifico']">NewTrition</div>
+            </div>
+            <nav class="flex items-center space-x-8">
+                <a href="#" class="text-primary hover:text-blue-300 transition-colors border-b-2 border-primary pb-1">PRODUCTS</a>
+                <div class="relative group">
+                    <button class="text-white hover:text-gray-300 transition-colors flex items-center">
+                        NUTRITION
+                        <div class="w-4 h-4 flex items-center justify-center ml-1">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                    </button>
+                </div>
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">SCIENCE</a>
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">PERFORMANCE</a>
+                <div class="relative group">
+                    <button class="text-white hover:text-gray-300 transition-colors flex items-center">
+                        SUPPORT
+                        <div class="w-4 h-4 flex items-center justify-center ml-1">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden" style="background-image: url('https://readdy.ai/api/search-image?query=futuristic%20dark%20space%20background%20with%20colorful%20particle%20explosions%20neon%20geometric%20patterns%20and%20energy%20waves%20creating%20dynamic%20visual%20effects%20for%20nutrition%20supplement%20marketing%20modern%20tech%20aesthetic%20with%20vibrant%20blues%20oranges%20and%20reds%20against%20deep%20black%20space&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gray-900 bg-opacity-60"></div>
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <!-- Left Content -->
+            <div class="w-1/2 pr-12">
+                <h1 class="text-6xl font-bold leading-tight mb-6">
+                    UNLEASH YOUR DAY.<br>
+                    <span class="text-primary">LASTING POWER.</span>
+                </h1>
+                <h2 class="text-3xl font-semibold mb-6 text-gray-200">The NEW Science of Nutrition</h2>
+                <p class="text-xl mb-8 text-gray-300">Fast Energy • Zero Sugar • Data-Driven Results</p>
+                <div class="flex items-center space-x-6">
+                    <button class="bg-primary hover:bg-blue-500 text-white px-8 py-4 !rounded-button text-lg font-semibold transition-colors whitespace-nowrap">
+                        SHOP NOW
+                    </button>
+                    <button class="text-white hover:text-primary transition-colors flex items-center text-lg font-semibold whitespace-nowrap">
+                        LEARN MORE
+                        <div class="w-5 h-5 flex items-center justify-center ml-2">
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Product Display -->
+            <div class="w-1/2 flex justify-center items-center">
+                <div class="relative">
+                    <img src="https://readdy.ai/api/search-image?query=three%20energy%20shot%20bottles%20in%20vibrant%20colors%20red%20orange%20and%20blue%20with%20modern%20sleek%20packaging%20design%20featuring%20NewTrition%20branding%20against%20transparent%20background%20professional%20product%20photography%20studio%20lighting&width=600&height=800&seq=products001&orientation=portrait" 
+                         alt="NewTrition Energy Shots" 
+                         class="w-96 h-auto object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-brain-line text-2xl text-white"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">FOCUS &<br>CLARITY</h3>
+                    <p class="text-gray-400">Enhanced cognitive performance with natural nootropics for sustained mental energy</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-speed-line text-2xl text-white"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">SUSTAINED<br>ENDURANCE</h3>
+                    <p class="text-gray-400">Long-lasting energy without crashes through advanced time-release formula</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-test-tube-line text-2xl text-white"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">SCIENCE-BACKED<br>FORMULA</h3>
+                    <p class="text-gray-400">Clinically tested ingredients with proven results in performance enhancement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="py-20 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Choose Your Power</h2>
+                <p class="text-xl text-gray-400">Three distinct formulas engineered for peak performance</p>
+            </div>
+            <div class="grid grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-gray-800 rounded-xl p-8 text-center hover:bg-gray-750 transition-colors">
+                    <img src="https://readdy.ai/api/search-image?query=red%20energy%20shot%20bottle%20with%20pomegranate%20flavor%20modern%20sleek%20packaging%20design%20featuring%20NewTrition%20branding%20professional%20product%20photography%20white%20background%20studio%20lighting&width=300&height=400&seq=product1&orientation=portrait" 
+                         alt="Pomegranate Energy Shot" 
+                         class="w-48 h-64 object-contain mx-auto mb-6">
+                    <h3 class="text-2xl font-bold mb-2">POMEGRANATE</h3>
+                    <p class="text-gray-400 mb-4">Antioxidant-rich formula for recovery and sustained energy</p>
+                    <div class="flex justify-center space-x-4 mb-6">
+                        <span class="bg-red-500 text-white px-3 py-1 rounded-full text-sm">200mg Caffeine</span>
+                        <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">0g Sugar</span>
+                    </div>
+                    <button class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap w-full">
+                        Add to Cart - $3.99
+                    </button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-gray-800 rounded-xl p-8 text-center hover:bg-gray-750 transition-colors">
+                    <img src="https://readdy.ai/api/search-image?query=orange%20energy%20shot%20bottle%20with%20citrus%20surge%20flavor%20modern%20sleek%20packaging%20design%20featuring%20NewTrition%20branding%20professional%20product%20photography%20white%20background%20studio%20lighting&width=300&height=400&seq=product2&orientation=portrait" 
+                         alt="Citrus Surge Energy Shot" 
+                         class="w-48 h-64 object-contain mx-auto mb-6">
+                    <h3 class="text-2xl font-bold mb-2">CITRUS SURGE</h3>
+                    <p class="text-gray-400 mb-4">Vitamin C boost with tropical energy enhancement</p>
+                    <div class="flex justify-center space-x-4 mb-6">
+                        <span class="bg-orange-500 text-white px-3 py-1 rounded-full text-sm">180mg Caffeine</span>
+                        <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">B12</span>
+                    </div>
+                    <button class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap w-full">
+                        Add to Cart - $3.99
+                    </button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-gray-800 rounded-xl p-8 text-center hover:bg-gray-750 transition-colors">
+                    <img src="https://readdy.ai/api/search-image?query=blue%20energy%20shot%20bottle%20with%20berry%20blast%20flavor%20modern%20sleek%20packaging%20design%20featuring%20NewTrition%20branding%20professional%20product%20photography%20white%20background%20studio%20lighting&width=300&height=400&seq=product3&orientation=portrait" 
+                         alt="Berry Blast Energy Shot" 
+                         class="w-48 h-64 object-contain mx-auto mb-6">
+                    <h3 class="text-2xl font-bold mb-2">BERRY BLAST</h3>
+                    <p class="text-gray-400 mb-4">Cognitive enhancement with natural berry extracts</p>
+                    <div class="flex justify-center space-x-4 mb-6">
+                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm">160mg Caffeine</span>
+                        <span class="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">Nootropics</span>
+                    </div>
+                    <button class="bg-primary hover:bg-blue-600 text-white px-6 py-3 !rounded-button font-semibold transition-colors whitespace-nowrap w-full">
+                        Add to Cart - $3.99
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-primary to-blue-600">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold mb-6">Ready to Unleash Your Potential?</h2>
+            <p class="text-xl mb-8 text-blue-100">Join thousands of athletes and professionals who trust NewTrition for peak performance</p>
+            <div class="flex justify-center space-x-6">
+                <button class="bg-white text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap">
+                    Shop All Products
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 !rounded-button text-lg font-semibold hover:bg-white hover:text-primary transition-colors whitespace-nowrap">
+                    Learn About Science
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-4 gap-8">
+                <div>
+                    <div class="text-white text-2xl font-bold font-['Pacifico'] mb-4">NewTrition</div>
+                    <p class="text-gray-400 mb-4">The NEW Science of Nutrition for peak performance and sustained energy.</p>
+                    <div class="flex space-x-4">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-facebook-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-twitter-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-instagram-fill text-gray-400 hover:text-white cursor-pointer"></i>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Energy Shots</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Performance Packs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Subscription</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Science</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Research</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Ingredients</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Clinical Studies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Shipping Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 NewTrition Shots. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script id="navigation-dropdown">
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownButtons = document.querySelectorAll('.group button');
+            
+            dropdownButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const icon = this.querySelector('i');
+                    if (icon.classList.contains('ri-arrow-down-s-line')) {
+                        icon.classList.remove('ri-arrow-down-s-line');
+                        icon.classList.add('ri-arrow-up-s-line');
+                    } else {
+                        icon.classList.remove('ri-arrow-up-s-line');
+                        icon.classList.add('ri-arrow-down-s-line');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script id="product-interactions">
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('button[class*="Add to Cart"]');
+            
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const originalText = this.textContent;
+                    this.textContent = 'Added!';
+                    this.disabled = true;
+                    
+                    setTimeout(() => {
+                        this.textContent = originalText;
+                        this.disabled = false;
+                    }, 2000);
+                });
+            });
+        });
+    </script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = '6d5g0gZXld-T7_8RNS_hpA';
+    window.host = 
+</script>
+</body>
+</html>
